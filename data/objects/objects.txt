@@ -1,0 +1,362 @@
+//sector11
+
+ObjectTab
+{
+	size: 3
+	sector: [(2,0);(3,0);(3,1);]
+	texture: h15
+	position: [(0,75);(550,75);(0,75);]
+	colision_x_scale: 0.7
+	colision_y_scale: 0.7
+	texturescale_X: 1.5
+	texturescale_Y: 1.5
+	offsetX: -20
+	offsetY: -20
+}
+ObjectTab
+{
+	size: 3
+	sector: [(2,0);(3,0);(3,1);]
+	texture: h16
+	position: [(225,75);(775,75);(225,75);]
+	colision_x_scale: 0.7
+	colision_y_scale: 0.7
+	texturescale_X: 1.5
+	texturescale_Y: 1.5
+	offsetX: 10
+	offsetY: -20
+}
+
+ObjectTab
+{
+	size: 1
+	sector: [(2,0);]
+	texture: h8
+	position: [(475,250);]
+	colision_x_scale: 0.9
+	colision_y_scale: 0.9
+	texturescale_X: 1.5
+	texturescale_Y: 1.5
+	offsetX: 0
+	offsetY: 0
+}
+
+ObjectTab
+{
+	size: 1
+	sector: [(4,0);]
+	texture: h10
+	position: [(400,175);]
+	colision_x_scale: 0.9
+	colision_y_scale: 0.9
+	texturescale_X: 1.5
+	texturescale_Y: 1.5
+	offsetX: 0
+	offsetY: 0
+}
+
+ObjectTab
+{
+	size: 1
+	sector: [(3,0);]
+	texture: h4
+	position: [(225,150);]
+	colision_x_scale: 0.9
+	colision_y_scale: 0.8
+	texturescale_X: 1.5
+	texturescale_Y: 1.5
+	offsetX: 0
+	offsetY: -15
+}
+
+ObjectTab
+{
+	size: 1
+	sector: [(3,0);]
+	texture: h5
+	position: [(0,200);]
+	colision_x_scale: 0.9
+	colision_y_scale: 0.9
+	texturescale_X: 1.5
+	texturescale_Y: 1.5
+	offsetX: 0
+	offsetY: 0
+}
+ObjectTab
+{
+	size: 3
+	sector: [(1,1);(1,0);(1,0);]
+	texture: h14
+	position: [(150,525);(200,700);(150,50);]
+	colision_x_scale: 0.7
+	colision_y_scale: 0.25
+	texturescale_X: 1.5
+	texturescale_Y: 1.5
+	offsetX: 0
+	offsetY: 0
+}
+ObjectTab
+{
+	size: 2
+	sector: [(2,1);(2,1);]
+	texture: h6
+	position: [(0,150);(400,150);]
+	colision_x_scale: 0.9
+	colision_y_scale: 0.9
+	texturescale_X: 2
+	texturescale_Y: 2
+	offsetX: 0
+	offsetY: -10
+}
+
+ObjectTab
+{
+	size: 1
+	sector: [(4,1);]
+	texture: h11
+	position: [(600,300);]
+	colision_x_scale: 0.9
+	colision_y_scale: 0.9
+	texturescale_X: 1.5
+	texturescale_Y: 1.5
+	offsetX: 0
+	offsetY: 0
+}
+ObjectTab
+{
+	size: 1
+	sector: [(1,2);]
+	texture: gate_open
+	position: [(405,150);]
+	colision_x_scale: 0
+	colision_y_scale: 0
+	texturescale_X: 3
+	texturescale_Y: 2
+	offsetX: 0
+	offsetY: 0
+}
+ObjectTab
+{
+	size: 8
+	sector: [(4,2);(4,2);(4,2);(3,2);(3,2);(2,2);(2,2);(2,2);]
+	texture: wall
+	position: [(66,125);(358,125);(650,125);(574,125);(282,125);(790,125);(498,125);(206,125);]
+	colision_x_scale: 1
+	colision_y_scale: 0.75
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: 0
+	offsetY: 5
+}
+
+ObjectTab
+{
+	size: 4
+	sector: [(0,0);(0,0);(0,1);(0,1);]
+	texture: wallup
+	position: [(798,0);(798,492);(798,184);(798,676);]
+	colision_x_scale: 0.6
+	colision_y_scale: 1
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: 0
+	offsetY: 0
+}
+drzewa w miescie
+ObjectTab
+{
+	size: 10
+	sector: [(2,1);(2,1);(2,1);(1,1);(1,1);(4,0);(4,0);(4,0);(4,0);(3,0);]
+	texture: tree
+	position: [(200,500);(100,500);(0,500);(700,500);(600,500);(300,500);(200,500);(100,500);(0,500);(700,500);]
+	colision_x_scale: 0.1
+	colision_y_scale: 0.2
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: -32
+	offsetY: -15
+
+
+}
+drzewa las 1 poziom
+ObjectTab
+{
+	size: 21
+	sector: [(2,4);(2,4);(2,4);(2,4);(2,4);(2,4);(2,4);(2,4);(3,4);(3,4);(3,4);(3,4);(3,4);(4,4);(4,4);(4,4);(4,4);(4,4);(4,4);(4,4);(4,4);]
+	texture: tree
+	position: [(20,20);(130,40);(240,20);(360,30);(430,80);(510,50);(650,70);(780,30);(0,90);(190,50);(260,60);(640,40);(750,80);(60,60);(130,50);(290,40);(340,30);(460,80);(570,70);(630,40);(740,30);]
+	colision_x_scale: 0.1
+	colision_y_scale: 0.2
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: -32
+	offsetY: -15
+}
+drzewa las 2 poziom
+ObjectTab
+{
+	size: 23
+	sector: [(2,4);(2,4);(2,4);(2,4);(2,4);(2,4);(2,4);(2,4);(3,4);(3,4);(3,4);(3,4);(3,4);(3,4);(3,4);(4,4);(4,4);(4,4);(4,4);(4,4);(4,4);(4,4);(4,4);]
+	texture: tree
+	position: [(30,300);(140,190);(300,150);(500,700);(407,540);(550,180);(640,180);(780,300);(230,450);(140,180);(270,500);(390,430);(300,420);(650,190);(450,180);(320,150);(140,240);(230,160);(550,150);(460,130);(570,520);(400,305);(450,560);]
+	colision_x_scale: 0.1
+	colision_y_scale: 0.2
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: -32
+	offsetY: -15
+}
+drzewa las 4 piony lewo
+ObjectTab
+{
+	size: 56
+	sector: [(2,4);(2,4);(2,4);(2,4);(2,4);(2,4);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,4);(2,4);(2,4);(2,4);(2,4);(2,4);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,4);(2,4);(2,4);(2,4);(2,4);(2,4);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);(2,5);]
+	texture: tree
+	position: [(70,200);(10,300);(90,400);(30,500);(60,600);(80,700);(100,30);(20,100);(150,200);(230,300);(40,400);(60,500);(90,600);(20,700);(130,200);(140,300);(150,400);(300,500);(140,600);(160,700);(170,0);(120,100);(150,200);(180,300);(190,430);(150,500);(170,600);(200,700);(240,200);(270,300);(240,400);(260,500);(270,600);(220,700);(250,0);(270,100);(280,200);(230,330);(230,400);(240,500);(260,600);(280,700);(310,200);(350,300);(380,400);(370,500);(330,600);(370,700);(340,0);(370,100);(340,200);(390,300);(350,400);(380,500);(330,600);(320,700);]
+	colision_x_scale: 0.1
+	colision_y_scale: 0.2
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: -32
+	offsetY: -15
+}
+drzewa las koniec mapy
+ObjectTab
+{
+	size: 16
+	sector: [(3,5);(3,5);(3,5);(3,5);(3,5);(3,5);(3,5);(3,5);(4,5);(4,5);(4,5);(4,5);(4,5);(4,5);(4,5);(4,5);]
+	texture: tree
+	position: [(0,700);(100,700);(200,700);(300,700);(400,700);(500,700);(600,700);(700,700);(0,700);(100,700);(200,700);(300,700);(400,700);(500,700);(600,700);(700,700);]
+	colision_x_scale: 0.1
+	colision_y_scale: 0.2
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: -32
+	offsetY: -15
+}
+
+ObjectTab
+{
+	size: 10
+	sector: [(3,1);(3,1);(3,1);(2,1);(2,1);(3,0);(3,0);(3,0);(3,0);(3,0);]
+	texture: tree4
+	position: [(200,500);(100,500);(0,500);(700,500);(600,500);(300,500);(400,500);(200,500);(100,500);(0,500);]
+	colision_x_scale: 0.1
+	colision_y_scale: 0.2
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: -32
+	offsetY: -15
+}
+ObjectTab
+{
+	size: 7
+	sector: [(3,4);(3,4);(4,4);(4,4);(4,4);(4,4);(4,4);]
+	texture: tree
+	position: [(700,200);(100,250);(150,250);(650,450);(750,200);(400,350);(600,230);]
+	colision_x_scale: 0.1
+	colision_y_scale: 0.2
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: -32
+	offsetY: -15
+}
+ObjectTab
+{
+	size: 9
+	sector: [(2,5);(4,2);(4,3);(4,3);(4,3);(4,3);(4,3);(4,3);(4,3);]
+	texture: tree
+	position: [(700,200);(500,550);(150,250);(650,450);(750,200);(400,750);(600,230);(700,500);(150,650);]
+	colision_x_scale: 0.1
+	colision_y_scale: 0.2
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: -32
+	offsetY: -15
+}
+Object
+{
+	column: 1
+	row: 2
+	texture: wall
+	posx: 130
+	posy: 125
+	colision_x_scale: 1.25
+	colision_y_scale: 0.75
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: 43
+	offsetY: 5
+}
+Object
+{
+	column: 4
+	row: 3
+	texture: campfire
+	posx: 400
+	posy: 400
+	colision_x_scale: 1.25
+	colision_y_scale: 0.75
+	texturescale_X: 2.5
+	texturescale_Y: 2.5
+	offsetX: 0
+	offsetY: 0
+}
+Object
+{
+	column: 1
+	row: 2
+	texture: wall
+	posx: 714
+	posy: 125
+	colision_x_scale: 1.35
+	colision_y_scale: 0.75
+	texturescale_X: 3
+	texturescale_Y: 3
+	offsetX: -50
+	offsetY: 5
+}
+Object
+{
+	column: 4
+	row: 5
+	texture: stone_circle
+	posx: 0
+	posy: 400
+	colision_x_scale: 0
+	colision_y_scale: 0
+	texturescale_X: 2.5
+	texturescale_Y: 2.5
+	offsetX: 0
+	offsetY: 0
+}
+Object
+{
+	column: 4
+	row: 5
+	texture: pillar
+	posx: 75
+	posy: 275
+	colision_x_scale: 0.55
+	colision_y_scale: 0.3
+	texturescale_X: 2
+	texturescale_Y: 2
+	offsetX: 0
+	offsetY: -15
+}
+Object
+{
+	column: 4
+	row: 5
+	texture: pillar
+	posx: 75
+	posy: 450
+	colision_x_scale: 0.55
+	colision_y_scale: 0.3
+	texturescale_X: 2
+	texturescale_Y: 2
+	offsetX: 0
+	offsetY: -15
+}
+
+End
